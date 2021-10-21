@@ -1,0 +1,47 @@
+.section2{
+    border-bottom: 1px solid #000;
+    border-color: rgb(216, 215, 215);
+    padding-bottom: 17px;
+}
+
+
+.desc{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+
+    &__link{
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 16px;
+        color: #000;
+        margin-right: 60px;
+        opacity: 0.7;
+        
+
+        &:hover{
+            padding-bottom: 15px;
+            border-bottom: 2px solid rgb(93, 93, 235);
+       
+
+        }
+
+
+        &__active{
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 16px;
+        color: #000;
+        margin-right: 60px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid rgb(93, 93, 235);
+        }
+    }
+}

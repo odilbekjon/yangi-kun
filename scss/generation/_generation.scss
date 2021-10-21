@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Tahroma", sans-serif;
+    
+}
+
+*, ::before, ::after{
+    box-sizing: inherit;
+} 
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
